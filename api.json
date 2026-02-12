@@ -1,0 +1,398 @@
+{
+  "category": "GHOST",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/el-silbon",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "el-silbon",
+    "name": "El Silbón",
+    "aliases": [
+      {
+        "name": "The Whistler",
+        "language": "English",
+        "region": "Venezuela/Colombia",
+        "meaning": "Translation of El Silbón"
+      },
+      {
+        "name": "El Silbón",
+        "language": "Spanish",
+        "region": "Venezuela/Colombia",
+        "meaning": "The whistler"
+      }
+    ],
+    "category": "GHOST",
+    "subcategory": "ENTITY_SPIRIT",
+    "tags": [
+      "ghost",
+      "vengeful-spirit",
+      "whistling",
+      "venezuela",
+      "colombia",
+      "llanos",
+      "cursed",
+      "bones",
+      "drunkards",
+      "cautionary-tale"
+    ],
+    "status": "active",
+    "description": {
+      "summary": "The Whistler - a tall, gaunt vengeful ghost from Venezuelan llanos who carries a bag of his father's bones and whistles in ascending notes. Hunts drunkards and unfaithful men. Sound reversal: when whistle sounds close, he's far away; when far away, he's close.",
+      "full": "El Silbón (The Whistler) is a vengeful ghost from the Venezuelan and Colombian llanos (plains). He appears as a tall, gaunt man who carries a heavy bag containing his father's bones. The ghost is cursed to wander forever, whistling a distinctive ascending note pattern (do-re-mi). His most distinctive feature is sound reversal: when his whistling sounds close, he is actually far away, but when it sounds distant, he is dangerously near. El Silbón's origin story involves patricide—he killed his father (various versions: because father killed mother, or after eating deer innards he shouldn't have) and was cursed to carry the bones forever. He hunts specific victims: drunkards and unfaithful men, killing them and adding their bones to his bag. Each night he counts the bones. Dogs can sense his presence and their howling/barking warns people. Protection includes dogs (he fears them) and chili pepper. This is a cautionary tale warning against alcoholism, infidelity, and disrespecting parents. The legend remains active in Venezuelan and Colombian plains regions."
+    },
+    "etymology": {
+      "origin": "Spanish, Venezuelan/Colombian llanos folklore",
+      "meaning": "'El Silbón' = 'The Whistler' (from 'silbar' = to whistle)",
+      "first_use": "Traditional oral folklore, origins unclear but at least 19th century"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "GHOST",
+      "type": "Vengeful spirit",
+      "subtype": "Cursed wanderer",
+      "variant": "Venezuelan/Colombian"
+    },
+    "related_phenomena": [
+      {
+        "id": "la-llorona",
+        "name": "La Llorona",
+        "relationship": "similar",
+        "description": "Another Latin American vengeful spirit, weeping woman"
+      },
+      {
+        "id": "banshee",
+        "name": "Banshee",
+        "relationship": "similar",
+        "description": "Irish wailing/screaming death omen"
+      },
+      {
+        "id": "wild-hunt",
+        "name": "Wild Hunt",
+        "relationship": "similar",
+        "description": "European cursed wanderer"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "height": {
+        "description": "Very tall, gaunt",
+        "unit": "descriptive",
+        "confidence": "high"
+      },
+      "coloration": [
+        "pale",
+        "skeletal"
+      ],
+      "features": [
+        {
+          "feature": "Appearance",
+          "description": "Tall, gaunt man, skeletal, emaciated",
+          "frequency": "always"
+        },
+        {
+          "feature": "Bag of bones",
+          "description": "Carries heavy bag containing father's bones (and victims' bones)",
+          "frequency": "always"
+        },
+        {
+          "feature": "Whistling",
+          "description": "Constantly whistles in ascending notes (do-re-mi pattern)",
+          "frequency": "always"
+        }
+      ],
+      "morphology": "Tall, emaciated ghostly figure carrying heavy bag"
+    },
+    "abilities": [
+      {
+        "ability": "Whistling",
+        "description": "Distinctive ascending whistle (do-re-mi pattern)",
+        "frequency": "always",
+        "evidence_level": "traditional_belief"
+      },
+      {
+        "ability": "Sound reversal",
+        "description": "When whistle sounds close, he's far away; when far, he's close",
+        "frequency": "always",
+        "evidence_level": "traditional_belief"
+      },
+      {
+        "ability": "Supernatural strength",
+        "description": "Kills victims, carries heavy bag of bones",
+        "frequency": "common",
+        "evidence_level": "traditional_belief"
+      },
+      {
+        "ability": "Eternal wandering",
+        "description": "Cursed to wander forever",
+        "frequency": "always",
+        "evidence_level": "traditional_belief"
+      }
+    ],
+    "behavior": {
+      "activity_period": "nocturnal",
+      "disposition": "malevolent",
+      "social_structure": "solitary",
+      "habitat_preference": [
+        "llanos (plains)",
+        "rural areas",
+        "open landscapes"
+      ],
+      "diet": "Does not eat (ghost)",
+      "patterns": [
+        "Wanders the llanos at night",
+        "Whistles constantly in ascending notes",
+        "Hunts drunkards and unfaithful men",
+        "Kills victims",
+        "Adds victims' bones to bag",
+        "Counts bones each night",
+        "Sound reversal tricks victims",
+        "Feared by dogs (they warn of presence)"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Venezuelan and Colombian llanos (plains regions)",
+      "continents": ["South America"],
+      "countries": ["Venezuela", "Colombia"],
+      "regions": [
+        "Venezuelan llanos",
+        "Colombian llanos",
+        "Plains regions",
+        "Rural areas"
+      ]
+    },
+    "hotspots": [
+      {
+        "name": "Venezuelan llanos",
+        "location": {
+          "description": "Plains of central Venezuela",
+          "country": "Venezuela",
+          "region": "Llanos"
+        },
+        "notes": "Primary region of legend"
+      },
+      {
+        "name": "Colombian llanos",
+        "location": {
+          "description": "Eastern plains of Colombia",
+          "country": "Colombia",
+          "region": "Llanos"
+        },
+        "notes": "Legend extends to Colombian plains"
+      }
+    ],
+    "temporal": {
+      "first_recorded": {
+        "date": "1800s",
+        "circa": true,
+        "source": "Oral folklore traditions, likely older"
+      },
+      "peak_activity_periods": [
+        {
+          "period": "Ongoing",
+          "description": "Active folklore tradition in llanos regions"
+        }
+      ],
+      "seasonal_patterns": "Year-round, nocturnal activity"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Venezuelan and Colombian llanos folklore. Part of rich oral tradition of the plains peoples. Functions as cautionary tale about respect for parents, avoiding alcoholism and infidelity.",
+      "earliest_accounts": "Oral traditions dating back at least to 19th century, possibly earlier. Precise origins unknown.",
+      "folklore_connections": "Connected to broader Latin American ghost traditions including La Llorona, and vengeful spirit folklore worldwide."
+    },
+    "origin_stories": [
+      {
+        "version": "Parricide for mother",
+        "description": "Young man killed his father for killing his mother, cursed to carry father's bones forever"
+      },
+      {
+        "version": "Deer innards",
+        "description": "Son ate deer innards (reserved for father), father beat him, son killed father in rage, cursed by grandfather"
+      },
+      {
+        "version": "Various",
+        "description": "Multiple versions exist, all involve son killing father and being cursed"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "Pre-1800s",
+        "event": "Origin of legend (estimated)",
+        "significance": "Legend emerges in llanos oral traditions",
+        "source": "Oral folklore"
+      },
+      {
+        "date": "1800s-1900s",
+        "event": "Legend firmly established",
+        "significance": "El Silbón becomes iconic figure of llanos folklore",
+        "source": "Oral traditions, early written accounts"
+      },
+      {
+        "date": "Modern era",
+        "event": "Ongoing tradition",
+        "significance": "Legend remains active in rural Venezuela and Colombia",
+        "source": "Contemporary accounts"
+      }
+    ],
+    "modern_era": "El Silbón remains an active legend in Venezuelan and Colombian llanos. The story is passed down through generations as a cautionary tale. Modern media has featured the legend, increasing awareness beyond traditional regions."
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Cautionary tale against alcoholism",
+        "Warning against infidelity",
+        "Respect for parents (patricide consequences)",
+        "Dogs as protectors and warning system",
+        "Sound reversal as protective knowledge"
+      ],
+      "stories": [
+        "Origin tale of patricide and curse",
+        "Stories of drunkards encountered by El Silbón",
+        "Tales of whistling heard in the llanos",
+        "Accounts of dog warnings",
+        "Stories of victims' bones added to bag"
+      ],
+      "beliefs": "Taken seriously in rural llanos communities. Used to warn against alcoholism and infidelity. Parents tell children the story as moral lesson."
+    },
+    "indigenous": {
+      "cultures": [
+        "Venezuelan llaneros",
+        "Colombian llaneros",
+        "Plains peoples"
+      ],
+      "significance": "Important part of llanos cultural identity and oral tradition. Serves as moral instruction and cautionary tale. Reflects values of respect for parents and proper behavior.",
+      "sensitivity_note": "This is Venezuelan and Colombian cultural heritage and should be treated with respect as part of llanos tradition.",
+      "respect_guidelines": "Approach llanos folklore with cultural respect. Recognize the moral and instructional purpose of the legend."
+    },
+    "popular_culture": {
+      "literature": [
+        "Venezuelan folklore collections",
+        "Latin American ghost story anthologies"
+      ],
+      "film_tv": [
+        "Venezuelan horror films",
+        "Latin American supernatural series"
+      ],
+      "other": [
+        "Oral storytelling tradition",
+        "Cautionary tales for children",
+        "Cultural education"
+      ]
+    }
+  },
+
+  "warning_signs": {
+    "detection": [
+      {
+        "sign": "Whistling sound",
+        "description": "Ascending notes (do-re-mi pattern), distinctive whistle",
+        "interpretation": "El Silbón approaching or nearby"
+      },
+      {
+        "sign": "Sound reversal",
+        "description": "If whistle sounds close, he's far; if far, he's close",
+        "interpretation": "Critical knowledge for survival"
+      },
+      {
+        "sign": "Dogs howling/barking",
+        "description": "Dogs sense El Silbón and warn with loud barking",
+        "interpretation": "El Silbón in area, dogs warning"
+      }
+    ]
+  },
+
+  "protection": {
+    "methods": [
+      {
+        "method": "Dogs",
+        "description": "El Silbón fears barking dogs; they warn of his presence",
+        "effectiveness": "Traditional belief - primary protection"
+      },
+      {
+        "method": "Chili pepper",
+        "description": "Chili pepper believed to ward off El Silbón",
+        "effectiveness": "Traditional protection"
+      },
+      {
+        "method": "Avoid being target",
+        "description": "Don't be drunk or unfaithful (his preferred victims)",
+        "effectiveness": "Cautionary prevention"
+      },
+      {
+        "method": "Sound reversal knowledge",
+        "description": "Understanding sound reversal helps gauge danger",
+        "effectiveness": "Survival knowledge"
+      }
+    ]
+  },
+
+  "victims": {
+    "primary_targets": [
+      {
+        "type": "Drunkards",
+        "description": "Alcoholics and heavy drinkers are primary targets",
+        "reason": "Moral failing, cautionary aspect"
+      },
+      {
+        "type": "Unfaithful men",
+        "description": "Men who cheat on their wives/partners",
+        "reason": "Moral failing, infidelity"
+      },
+      {
+        "type": "Disrespectful to parents",
+        "description": "Those who disrespect or harm parents",
+        "reason": "Reflects his own crime (patricide)"
+      }
+    ]
+  },
+
+  "research": {
+    "researchers": [
+      {
+        "name": "Venezuelan folklorists",
+        "contribution": "Documentation of llanos oral traditions",
+        "period": "1900s-present"
+      },
+      {
+        "name": "Latin American folklore scholars",
+        "contribution": "Study of regional ghost traditions",
+        "period": "Ongoing"
+      }
+    ],
+    "ongoing_studies": "Folklore research into llanos oral traditions and Latin American ghost legends. Cultural studies of cautionary tales and moral instruction through folklore."
+  },
+
+  "sources": [
+    {
+      "id": "venezuelan-folklore",
+      "type": "reference",
+      "title": "Venezuelan and Colombian folklore collections and oral traditions",
+      "note": "Multiple sources document this widespread legend"
+    }
+  ]
+}
