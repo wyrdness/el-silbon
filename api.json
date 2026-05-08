@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/el-silbon",
     "maintainers": [
       {
@@ -16,72 +16,137 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "el-silbon",
     "name": "El Silbón",
-    "aliases": [],
-    "category": "GHOST_/_ENTITY_SPIRIT",
-    "subcategory": "Cursed wanderer",
-    "tags": [
-      "folklore",
-      "mythology"
+    "aliases": [
+      { "name": "El Silbón", "language": "Spanish", "meaning": "the whistler" },
+      { "name": "Silbón Llanero", "region": "Venezuelan and Colombian Llanos" }
     ],
-    "status": "documented",
+    "category": "GHOST_HAUNTING",
+    "subcategory": "Cursed wandering spirit",
+    "tags": [
+      "venezuela",
+      "colombia",
+      "llanos",
+      "ghost",
+      "patricide",
+      "whistling",
+      "cursed-wanderer",
+      "rural-folklore"
+    ],
+    "status": "active",
     "description": {
-      "summary": "His most distinctive and dangerous feature is **sound reversal**: when his whistling sounds close, he is actually far away, but when it sounds distant, he is dangerously near.",
-      "full": "His most distinctive and dangerous feature is **sound reversal**: when his whistling sounds close, he is actually far away, but when it sounds distant, he is dangerously near. El Silbón's origin involves **patricide**—he killed his father and was cursed to carry the bones forever. He hunts specific victims: **drunkards and unfaithful men**, killing them and adding their bones to his bag. Each night he counts the bones."
+      "summary": "A cursed wandering spirit of the Venezuelan and Colombian Llanos who carries his murdered father's bones in a sack and whose whistle reverses with distance: close-sounding when far, distant-sounding when very near.",
+      "full": "El Silbón ('the whistler') is a legendary spirit of the Llanos region of Venezuela — particularly Portuguesa state and Guanarito Municipality — and of Colombia's Eastern Llanos, said to have arisen as a folk legend in the mid-19th century. According to the most widely told version, El Silbón was a spoiled son who, in a drunken rage, killed his father, and (in some versions) prepared the body as food for his unsuspecting mother; on discovering the truth, his grandfather whipped him, rubbed lemon and pepper into his wounds, and cursed him to wander forever, carrying his father's bones in a sack. He appears as the shadow of a tall, gaunt man, sometimes wearing a hat; in some accounts as a six-metre giant moving among the treetops. His characteristic whistle is held to be inverted in distance: when it sounds near, he is far; when it sounds faint and distant, he is dangerously close. He preys particularly on drunkards and unfaithful husbands. Folkloric protections include a barking dog (the only thing he reportedly fears), chili peppers, and a whip — items linked to the curse imposed by his grandfather."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Spanish 'el silbón', literally 'the whistler' or 'the one who whistles', from the verb 'silbar' (to whistle).",
+      "meaning": "'The Whistler'.",
+      "first_use": "Recorded in 19th-century Llanero oral tradition; widely standardised in 20th-century Venezuelan folkloric literature."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "GHOST_/_ENTITY_SPIRIT",
-      "type": "Cursed wanderer",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "GHOST_HAUNTING",
+      "type": "Cursed wandering spirit",
+      "subtype": "Patricide-curse ghost",
+      "variant": "Venezuelan / Colombian Llanos"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "la-llorona", "name": "La Llorona", "relationship": "similar", "description": "Wandering, weeping female spirit of Latin American folklore" },
+      { "id": "el-sombreron", "name": "El Sombrerón", "relationship": "similar", "description": "Hat-wearing nocturnal harasser of Guatemalan and Mexican folklore" },
+      { "id": "el-coco", "name": "El Coco", "relationship": "related", "description": "Pan-Hispanic bogeyman figure" },
+      { "id": "patasola", "name": "Patasola", "relationship": "similar", "description": "Colombian one-legged forest-spirit hunter of unfaithful men" },
+      { "id": "madremonte", "name": "Madremonte", "relationship": "related", "description": "Colombian/Venezuelan forest mother-spirit" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["shadow-black", "gaunt grey"],
+      "features": [
+        { "feature": "Tall, gaunt male figure", "description": "Most commonly described as the shadow of a tall, very thin man, sometimes in a hat", "frequency": "common" },
+        { "feature": "Sack of bones", "description": "Carries a sack containing his father's bones, which he counts each night", "frequency": "always" },
+        { "feature": "Six-metre giant variant", "description": "Some Llanero accounts portray him as an enormous figure striding among the treetops", "frequency": "occasional" },
+        { "feature": "Inverted whistle", "description": "His whistle sounds close when he is far away, and faint when he is dangerously near", "frequency": "always" }
+      ],
+      "morphology": "Spectral; size and detail vary regionally between a man-shadow and a giant."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Inverted-distance whistle", "description": "Distance perception of his whistle is reversed; the louder, the safer", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Death foretelling", "description": "Hearing his whistle is itself an omen of death; in some accounts he counts the bones at the sleeper's threshold", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Vulnerability to dogs and chilies", "description": "Held to be repelled by a barking dog, by chili pepper, and by the whip — items associated with his original curse", "frequency": "always", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["savanna ('llano')", "rural roads", "isolated farmhouses", "open ranchland"],
+      "diet": "Said to drink the blood of his victims and add their bones to his sack",
+      "patterns": [
+        "Approaches lone, drunk, or unfaithful men at night",
+        "Whistles continually as he travels; the whistle is the principal phenomenological marker",
+        "Counts the bones in his sack each night"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Folkloric range across the Llanos savanna of Venezuela and the Eastern Llanos of Colombia, with the densest tradition in the Venezuelan state of Portuguesa.",
+      "continents": ["South America"],
+      "countries": ["Venezuela", "Colombia"],
+      "regions": [
+        "Llanos (Orinoquía)",
+        "Portuguesa State",
+        "Guárico State",
+        "Apure State",
+        "Eastern Llanos (Colombia)",
+        "Casanare Department",
+        "Meta Department"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Guanarito, Portuguesa",
+        "location": {
+          "description": "Rural Portuguesa State, Venezuela",
+          "country": "Venezuela",
+          "region": "Portuguesa"
+        },
+        "peak_period": "19th–20th century",
+        "notes": "Region most strongly associated with the El Silbón legend in standard Venezuelan folklore."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "19th century",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Venezuelan Llanero oral tradition"
+      },
+      "peak_activity_periods": [
+        { "period": "Mid-19th century", "description": "Period in which the legend is generally said to have arisen, per Wikipedia and Venezuelan folklore studies" },
+        { "period": "20th century–present", "description": "Continued cultural prominence in Venezuelan and Colombian rural folk media" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Llanero oral tradition of Venezuela and Colombia, fusing Iberian moral-tale conventions with regional Llanero rural cosmology and Catholic concepts of curse and unredeemed sin.",
+      "earliest_accounts": "Mid-19th-century oral tradition; recorded in 20th-century Venezuelan and Colombian folklore compilations.",
+      "folklore_connections": "Connected to a wider Hispanic-American complex of cursed-wanderer ghosts including La Llorona, El Sombrerón, La Sayona, La Patasola, and El Coco."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1850-01-01", "event": "El Silbón legend takes shape in Venezuelan Llanero oral tradition (per Wikipedia)", "significance": "Approximate origin of the tradition", "source": "Wikipedia, 'El Silbón'" },
+      { "date": "1939-01-01", "event": "Rómulo Gallegos publishes 'Cantaclaro', situating the Llanos in modern Venezuelan literary imagination and creating an audience for Llanero folklore", "significance": "Cultural context for 20th-century literary engagement with Llanero folklore", "source": "Gallegos, R. (1939)" }
+    ],
+    "modern_era": "El Silbón remains a vivid presence in Venezuelan and Colombian rural folklore, in school anthologies, in the 'joropo' musical tradition, and in popular culture (films, television, comics). The 2018 Venezuelan film 'El Silbón: Orígenes' and a sequel have given the figure renewed contemporary visibility."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +157,90 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": []
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Cursed unredeemed soul",
+        "description": "El Silbón is the soul of a real or archetypal patricide condemned to wander forever as punishment, in keeping with Catholic and Llanero conceptions of the unredeemed dead.",
+        "proponents": ["Llanero folk-Catholicism"],
+        "evidence_cited": ["Stable curse-narrative across the region", "Apotropaic role of dogs and chilies tied directly to the curse story"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Moral-pedagogical folklore",
+        "description": "The legend functions as moral pedagogy and social control, warning especially against patricide, drunkenness, and infidelity in a rural Llanero context.",
+        "proponents": ["Modern Venezuelan folkloristics"],
+        "evidence_cited": ["Targeted prey (drunkards, unfaithful men)", "Pedagogic role in family storytelling"]
+      },
+      {
+        "name": "Acoustic explanation of the inverted whistle",
+        "description": "The 'reversed' whistle motif may encode a real acoustic phenomenon of the open Llanos — sounds carry unevenly across the savanna at night, particularly with temperature inversions.",
+        "proponents": ["Local interpretive tradition"],
+        "evidence_cited": ["Llanero familiarity with long-range acoustic effects in open savanna"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Llanero oral tradition (Venezuela and Colombia)",
+        "Joropo musical tradition references"
+      ],
+      "stories": [
+        "The patricide-curse origin tale",
+        "Dog-bark protection narratives",
+        "Bone-counting at the threshold tale"
+      ],
+      "beliefs": "Hearing the whistle is itself an omen; if the whistle sounds close, no immediate danger; if it sounds far, the listener is in immediate peril. Protection is sought through dogs, chili pepper, and the whip."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Llanero anthology stories in Venezuelan and Colombian school readers",
+        "El Silbón material in collected works of Venezuelan folklorists"
+      ],
+      "film_tv": [
+        "'El Silbón: Orígenes' — Gisberg Bermúdez (Venezuela, 2018)",
+        "'El Silbón: Capítulos del terror' (Venezuela, 2021)"
+      ],
+      "games": [
+        "Featured as a creature in Latin American indie horror games drawing on regional folklore"
+      ],
+      "music": [
+        "'El Silbón' joropo songs in the Llanero musical tradition"
+      ],
+      "other": [
+        "Frequently invoked in Llanero rural pedagogy and as a regional cultural symbol"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Rafael Olivares Figueroa", "affiliation": "Venezuelan folklorist", "contribution": "Mid-20th-century anthologisation of Venezuelan folklore including Llanero ghost figures", "period": "1940s–1960s" },
+      { "name": "Javier Villafañe", "affiliation": "Argentine puppeteer / folklorist", "contribution": "Engagement with Latin American Llanero folklore in his collections", "period": "1940s–1970s" }
+    ],
+    "organizations": [
+      { "name": "Fundación Bigott", "url": "https://www.fundacionbigott.com", "focus": "Venezuelan folkloric and traditional cultural research" },
+      { "name": "Instituto Caro y Cuervo (Colombia)", "url": "https://www.caroycuervo.gov.co", "focus": "Linguistic and folkloric research including Llanero traditions" }
+    ],
+    "ongoing_studies": "Active folkloric and literary engagement in Venezuelan and Colombian universities; the figure regularly features in regional studies of Llanero culture."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-el-silbon", "type": "website", "title": "El Silbón", "url": "https://en.wikipedia.org/wiki/El_Silb%C3%B3n", "accessed": "2026-05-07" },
+    { "id": "fundacion-bigott", "type": "website", "title": "Fundación Bigott — Venezuelan folkloric resources", "url": "https://www.fundacionbigott.com", "accessed": "2026-05-07" }
+  ]
 }
